@@ -169,3 +169,41 @@ header div{
 .conteudo_titulo_seta img{
     padding-left: 6rem;
 }
+.conteudo_about{
+    padding-top: 6%;
+}
+.model{
+    display: flex;
+    width: 40%;
+}
+.model img{
+    border: solid 0.3rem var(--cor-texto-secundaria);
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+}
+.model_youtube_conteudo{
+    padding-left: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.container_historico_models{
+    display: flex;
+    gap: 9rem;
+}
+.segundo{
+    padding-top: 7%;
+}
+.imagens_programando{
+    display: flex;
+    gap: 8rem;
+    padding-top: 5%;
+}
+.imagens_programando img{
+    border-right: 20px solid rgba(189, 93, 185, 0.2); 
+    border-top: 10px solid rgba(189, 93, 185, 0.2);
+    border-left: 20px solid rgba(189, 93, 185, 0.2);
+    border-bottom: 10px solid rgba(189, 93, 185, 0.2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
