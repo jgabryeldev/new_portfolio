@@ -156,3 +156,16 @@ header div{
     margin-top: 5%;
     justify-content: center;
 }
+
+.container_projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-right: 1rem;
+}
+.conteudo_titulo_seta{
+    display: flex;
+}
+.conteudo_titulo_seta img{
+    padding-left: 6rem;
+}
