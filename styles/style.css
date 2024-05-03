@@ -301,9 +301,27 @@ header div{
             font-size: 1.5rem;
         }
     }
-    @media(max-width: 434px){
+    @media(max-width:600px){
+        .imagens_programando{
+            flex-direction: column;
+        }
+        .imagens_programando img{
+            margin: 0 auto;
+        }
+        
+        .conteudo_principal_links{
+            display: none;
+        }
+    }
+    @media(max-width: 440px){
         header{
             gap: 3%;
+        }
+        .subtitulo_projetos{
+            font-size: 0.8rem;
+        }
+        .texto{
+            font-size: 0.9rem;
         }
     }
 }
