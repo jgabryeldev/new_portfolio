@@ -8,7 +8,7 @@
     --tamanho-fonte-titulo: 3rem;
     --tamanho-fonte-subtitulo: 2rem;
     --tamanho-fonte-footer: 1rem;
-    --tamanho_imagens_projetos:30rem;
+    --tamanho_imagens_projetos:95%;
 }
 
 *
@@ -37,12 +37,23 @@ header div{
     display: flex;
     gap: 2rem;
 }
+.nome:hover{
+    color: var(--cor-texto-secundaria);
+}
 
 .link_nav{
     text-decoration: none;
     font-size: var(--tamanho-fonte-textos);
     color: var(--cor-texto-primaria);
     font-weight: bold;
+    transition: 0.3s all ease;
+}
+.nav:hover a{
+    color: #585858;
+}
+.nav:hover a:hover{
+    color: var(--cor-texto-secundaria);
+    box-shadow: 0 2px 0 0 currentColor;
 }
 
 .nome{
@@ -78,6 +89,8 @@ header div{
 .foto_pessoal{
     border: solid 0.3rem var(--cor-texto-secundaria);
     border-radius: 100%;
+    width: 20rem;
+    height: 10rem;
 }
 .subtitulo{
     font-size: var(--tamanho-fonte-subtitulo);
@@ -97,6 +110,15 @@ header div{
     gap: 1.5rem;
     padding-top: 1.2rem;
     align-items: center;
+    transition: 0.3s all ease;
+}
+.links_link:hover a{
+    opacity: 0.3;
+}
+.links_link:hover a:hover{
+    box-shadow: 0 2px 0 0 currentColor;
+    opacity: 1;
+    color: #585858;
 }
 .footer{
     display: flex;
@@ -132,11 +154,12 @@ header div{
     padding: 4% 7% 0 0;
 }
 .projetos_imagens{
-    max-width: var(--tamanho_imagens_projetos);
+    width: var(--tamanho_imagens_projetos);
     border-right: 25px solid rgba(189, 93, 185, 0.2); 
     border-top: 35px solid rgba(189, 93, 185, 0.2);
     border-left: 25px solid rgba(189, 93, 185, 0.2);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    height: auto;
 }
 .conteudo_projetos{
     max-width: 40%;
@@ -155,6 +178,11 @@ header div{
     border: 0.3px solid black;
     margin-top: 5%;
     justify-content: center;
+    transition: ease-out 0.5s;
+}
+.link_about:hover{
+    box-shadow: inset 0 0 0 20px #777476;
+    border: 0.3px solid var(--cor-texto-secundaria);
 }
 
 .container_projetos{
@@ -206,4 +234,16 @@ header div{
     border-left: 20px solid rgba(189, 93, 185, 0.2);
     border-bottom: 10px solid rgba(189, 93, 185, 0.2);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    height: auto;
+    width: 50%;
+}
+.titulo_about{
+    padding-top: 3%;
+}
+
+@media(max-width: 900px)
+{
+    .conteudo_principal{
+        flex-direction: column;
+    }
 }
