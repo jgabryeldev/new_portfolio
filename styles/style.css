@@ -322,6 +322,27 @@ header div{
         }
         .texto{
             font-size: 0.9rem;
+            white-space: normal;
+        }
+        .imagens_programando img{
+            width: 80%;
+            padding: 0;
+        }
+        #img_youtube{
+            width: 3rem;
+            height: 3rem;
+        }
+        #img_instagram{
+            width: 3.3rem;
+            height: 3.3rem;
+        }
+        #img_college{
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+        #img_beca{
+            width: 3.5rem;
+            height: 3.5rem;
         }
     }
 }
