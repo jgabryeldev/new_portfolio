@@ -185,7 +185,7 @@ header div{
     border: 0.3px solid var(--cor-texto-secundaria);
 }
 
-.container_projetos{
+#container_projetos{
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -293,12 +293,61 @@ header div{
     header{
         gap: 25%;
     }
+    .conteudo_titulo_seta img{
+        padding-left: 2rem;
+        width: 15%;
+    }
     @media(max-width:768px){
         .titulo{
             font-size: 2rem;
         }
         .subtitulo{
             font-size: 1.5rem;
+        }
+        .projetos{
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+            gap: 1rem;
+            padding: 6% 7% 0 0;
+        }
+        .projetos_imagens{
+            width: 80%;
+            border-right: 25px solid rgba(189, 93, 185, 0.2); 
+            border-top: 35px solid rgba(189, 93, 185, 0.2);
+            border-left: 25px solid rgba(189, 93, 185, 0.2);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            height: auto;
+        }
+        #conteudo_projetos{
+            width: 90%;
+        }
+        #conteudo_projetos a{
+            margin: 0 auto;
+            margin-top: 1rem;
+        }
+        #titulo_sub_querie{
+            display: flex;
+            flex-direction: column;
+        }
+        .titulo_projeto{
+            display: none;
+        }
+        .subtitulo_projetos{
+            display: none;
+        }
+        .titulo_querie{
+            font-size: var(--tamanho-fonte-subtitulo);
+            font-weight: bold;
+            padding-top: 5%;
+        }
+        .subtitulo_querie{
+            font-weight: bold;
+            font-size: var(--tamanho-fonte-textos);
+            color: var(--cor-texto-titulo);
+            padding-bottom: 4%;
+        }
+        #texto_projetos{
+            text-align: justify;
         }
     }
     @media(max-width:600px){
@@ -310,6 +359,9 @@ header div{
         }
         
         .conteudo_principal_links{
+            display: none;
+        }
+        .conteudo_titulo_seta img{
             display: none;
         }
     }
