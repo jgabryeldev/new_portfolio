@@ -438,6 +438,12 @@ header div{
             gap: 3rem;
             padding-top: 2rem;
         }
+        .foto_pessoal{
+            margin: 0 auto;
+            min-width: 50%;
+            min-height: 25%;
+            border: solid 0.2rem var(--cor-texto-secundaria);
+        }
         #img_youtube{
             width: 3rem;
             height: 3rem;
