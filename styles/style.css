@@ -55,7 +55,25 @@ header div{
     color: var(--cor-texto-secundaria);
     box-shadow: 0 2px 0 0 currentColor;
 }
-
+#nome_nav{
+    animation: changeColor 3s infinite;
+}
+#nome_nav:hover{
+    color: var(--cor-texto-secundaria);
+    box-shadow: 0 2px 0 0 currentColor;
+    animation: none;
+}
+@keyframes changeColor {
+    0% {
+        color: rgb(201, 197, 200);
+    }
+    50% {
+        color: rgb(117, 116, 117);
+    }
+    100% {
+        color: var(--cor-texto-primaria);
+    }
+}
 .nome{
     font-size: 1.372rem;
 }
