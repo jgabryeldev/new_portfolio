@@ -8,7 +8,7 @@
     --tamanho-fonte-titulo: 3rem;
     --tamanho-fonte-subtitulo: 2rem;
     --tamanho-fonte-footer: 1rem;
-    --tamanho_imagens_projetos: 85%;
+    --tamanho_imagens_projetos: 95%;
 }
 
 *
@@ -340,7 +340,7 @@ header div{
             height: auto;
         }
         #conteudo_projetos{
-            width: 90%;
+            max-width: 90%;
         }
         #conteudo_projetos a{
             margin: 0 auto;
