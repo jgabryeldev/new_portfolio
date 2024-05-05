@@ -56,7 +56,7 @@ header div{
     box-shadow: 0 2px 0 0 currentColor;
 }
 #nome_nav{
-    animation: changeColor 3s infinite;
+    animation: changeColor 2s infinite;
 }
 #nome_nav:hover{
     color: var(--cor-texto-secundaria);
@@ -107,11 +107,11 @@ header div{
 .texto{
     font-size: 1.3rem;
 }
-.foto_pessoal{
+#foto_pessoal{
     border: solid 0.3rem var(--cor-texto-secundaria);
     border-radius: 100%;
-    width: 50%;
-    height: 25%;
+    width: 70%;
+    height: 35%;
 }
 .subtitulo{
     font-size: var(--tamanho-fonte-subtitulo);
@@ -302,8 +302,10 @@ header div{
     .conteudo_principal_descricao{
         padding: 6% 0 0 0;
     }
-    .foto_pessoal{
-        margin: 0 auto
+    #foto_pessoal{
+        margin: 0 auto;
+        width: 50%;
+        height: 25%;
     }
     .sub_index{
         padding-bottom: 2%;
@@ -340,7 +342,7 @@ header div{
             height: auto;
         }
         #conteudo_projetos{
-            max-width: 90%;
+            max-width: 95%;
         }
         #conteudo_projetos a{
             margin: 0 auto;
@@ -377,6 +379,7 @@ header div{
         }
         .imagens_programando img{
             margin: 0 auto;
+            width: 80%;
         }
         
         .conteudo_principal_links{
@@ -400,6 +403,10 @@ header div{
         .imagens_programando img{
             width: 80%;
             padding: 0;
+        }
+        .imagens_programando{
+            gap: 3rem;
+            padding-top: 2rem;
         }
         #img_youtube{
             width: 3rem;
